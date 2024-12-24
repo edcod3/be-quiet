@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "src/**/*.ts",
+    "src/**/*.html",
+    "dist/public/*.html",
+    "src/styles/tailwind.css"
+  ],
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "ext": "ts,html,css",
+  "ignore": [
+    "node_modules/*"
+  ]
+}
