@@ -50,9 +50,9 @@ func minimizeWindows() {
 // Handler for the web API
 func handler(w http.ResponseWriter, r *http.Request) {
 	// Call the MessageBox API on every request
-	MessageBox("Hello from Go Web API!", "MessageBox")
+	MessageBox("You have received a BE QUIET alert. Please do not make anymore loud noises!", "BE QUIET!")
 	// Respond with a simple message
-	fmt.Fprintf(w, "MessageBox called! Check your screen for a message box.")
+	fmt.Fprintf(w, "BE QUIET alert received! You may rest peacefully now.")
 }
 
 func main() {
